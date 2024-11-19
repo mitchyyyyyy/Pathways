@@ -7,7 +7,7 @@ from django.utils import timezone
 from django.utils.timezone import make_aware
 from datetime import datetime
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'base.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Pathways.settings')
 django.setup()
 
 
