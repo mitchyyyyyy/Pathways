@@ -1,0 +1,158 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% load static %}
+
+<!-- breadcumb area -->
+<div class="breadcumb-area">
+	<div class="container">				
+		<div class="row">
+			<div class="col-md-12 txtc  text-center ccase">
+				<div class="brpt">
+					<h2>Contact</h2>
+				</div>
+				<div class="breadcumb-inner">				
+					<ul>
+						<li>You are currently here! <i class="fas fa-angle-right"></i> </li>
+						<li><a href="#" rel="v:url" property="v:title">Home</a></li>
+						<li><i class="fas fa-angle-right"></i></li>
+						<li><span class="current">Contact</span></li>
+					</ul>					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End breadcumb area -->
+<!-- contact area2 -->
+<div class="contact_area2">
+	<div class="container">
+		<div class="row">
+    
+			<div class="col-lg-4 col-md-4" style="padding:0px;">
+				<div class="contact_page_area">
+					<div class="container">
+						<div class="row">
+							<!-- single contact box -->
+							<div class="col-lg-12" style="padding:0px;">
+								<div class="service-item all_color_service  text-right  ">
+									<div class="service_top_image">
+										<!-- image -->
+									</div>
+									<div class="text_box all_icon_color">
+										<!-- icon -->
+										<i class="flaticon flaticon-map"></i>
+										<!-- title -->
+										<h3>Office Location</h3>
+                                        <p>{{ company.location }}</p>
+									</div> 						
+								</div>
+								<div class="service-item all_color_service  text-right  ">
+									<div class="service_top_image">
+										<!-- image -->
+									</div>
+									<div class="text_box all_icon_color">
+										<!-- icon -->
+										<i class="flaticon flaticon-call"></i>
+										<!-- title -->
+										<h3>Phone Number</h3>
+                                        <p>{{ company.phone }}</p>
+									</div> 						
+								</div>
+								<div class="service-item all_color_service  text-right  ">
+									<div class="service_top_image">
+										<!-- image -->
+									</div>
+									<div class="text_box all_icon_color">
+										<!-- icon -->
+										<i class="flaticon flaticon-mail"></i>
+										<!-- title -->
+										<h3>E-mail Number</h3>
+										<!-- content -->
+										<p>{{ company.email }}</p>
+									</div> 						
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-8 col-md-8 box_shadow">
+				<div class="apartment_area">				
+					<div class="apartment_text text-center">
+                        <div class="container">
+                            <!-- django messages -->
+                            {% if messages %}
+                                {% for message in messages %}
+                                    <div class="alert {{ message.tags }}">
+                                        {{ message }}
+                                    </div>
+                                {% endfor %}
+                            {% endif %}
+                        </div>		
+						<!-- title -->
+						<h1>Get in Touch</h1>
+						<h2>Make An Free Consultant </h2>		
+					</div>		
+					<div class="witr_apartment_form">					
+						<form method="post" id="contact-form">
+                            {% csrf_token %}
+                            {{ form.non_field_errors }}
+							<div class="row">
+								<div class="col-lg-6 col-md-6">
+									<div class="twr_form_box">
+										{{ form.name }}
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="twr_form_box">
+										{{ form.email }}
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="twr_form_box">
+										{{ form.phone}}
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="twr_form_box">
+										{{ form.subject }}
+									</div>
+								</div>
+								<div class="col-lg-12 col-md-12">
+									<div class="twr_form_box ">
+										{{ form.message }}
+									</div>
+									<button type="submit" name="ok" class="btn ">Send Message</button>
+								</div>
+								<div class="col-lg-12 text-center">
+									<p class="form-messege"></p>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>	
+			</div>
+			
+		</div>
+	</div>
+</div>
+<!-- contact page area -->
+
+<!-- map area -->
+<div class="map_area">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12" style="padding:0px;">
+				<div class="map_inner_area">
+					<!-- <iframe src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&amp;t=m&amp;z=11&amp;output=embed&amp;iwloc=near" title="London Eye, London, United Kingdom" aria-label="London Eye, London, United Kingdom"></iframe> -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8906436358316!2d36.87392867462871!3d-1.2355712987526482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f155f3c9e2241%3A0xe63a84bd70d17c93!2sThe%20Trio%20Complex!5e0!3m2!1sen!2sus!4v1732032602638!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,169 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% load static %}
+
+<!-- breadcumb area -->
+<div class="breadcumb-area">
+	<div class="container">				
+		<div class="row">
+			<div class="col-md-12 txtc  text-center ccase">
+				<div class="brpt">
+					<h2>About</h2>
+				</div>
+				<div class="breadcumb-inner">				
+					<ul>
+						<li>You are currently here! <i class="fas fa-angle-right"></i> </li>
+						<li><a href="{% url 'base:home' %}" rel="v:url" property="v:title">Home</a></li>
+						<li><i class="fas fa-angle-right"></i></li>
+						<li><span class="current">About</span></li>
+					</ul>					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End breadcumb area -->
+
+<!-- techsell about area -->
+<div class="techsell_about_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="single_image_area">
+                    <div class="single_image single_line_option">
+                        <img src="{% static 'assets/images/abouts.jpg' %}" alt="Pathways Credit Limited office building and team">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="about_right_inner">
+                    <div class="witr_section_title">
+                        <div class="witr_section_title_inner text-left">
+                            <h2>ABOUT PATHWAYS CREDIT LIMITED</h2>
+                            <h3>Your Trusted Partner in Financial Growth - <span>Empowering Dreams</span></h3>
+                            <p>Pathways Credit Limited is a leading financial institution with over 15 years of excellence in providing innovative credit solutions and financial services. Based in Kenya, we serve individuals and businesses with personalized lending solutions, competitive rates, and exceptional customer service. Our commitment to financial inclusion has helped thousands achieve their dreams.</p>
+                        </div>
+                    </div>
+                    <!-- single item -->
+                    <div class="em-service2 sleft all_color_service">
+                        <div class="em_service_content">
+                            <div class="em_single_service_text width_height_link_0">
+                                <div class="service_top_image"></div>
+                                <div class="text_box witr_s_flex">
+                                    <div class="service_top_text all_icon_color">
+                                        <div class="em-service-icon">
+                                            <i class="icofont icofont-bank"></i>
+                                        </div>
+                                    </div>
+                                    <div class="em-service-inner">
+                                        <div class="em-service-title">
+                                            <h3>Our Legacy of Trust</h3>
+                                        </div>
+                                        <div class="em-service-desc">
+                                            <p>Since our establishment, we've built a strong reputation for financial integrity and customer-centric services. Our track record shows consistent growth and unwavering commitment to ethical lending practices.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single item -->
+                    <div class="em-service2 sleft all_color_service">
+                        <div class="em_service_content">
+                            <div class="em_single_service_text width_height_link_0">
+                                <div class="service_top_image"></div>
+                                <div class="text_box witr_s_flex">
+                                    <div class="service_top_text all_icon_color">
+                                        <div class="em-service-icon">
+                                            <i class="icofont icofont-chart-growth"></i>
+                                        </div>
+                                    </div>
+                                    <div class="em-service-inner">
+                                        <div class="em-service-title">
+                                            <h3>Our Vision & Mission</h3>
+                                        </div>
+                                        <div class="em-service-desc">
+                                            <p>We strive to be Kenya's most trusted financial partner, providing accessible credit solutions that transform lives. Our mission is to empower economic growth through innovative financial services.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="witr_button_area">
+                        <div class="witr_btn_style mr">
+                            <div class="witr_btn_sinner">
+                                <a href="{% url 'base:about' %}" class="witr_btn">Discover More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- techsell counter area -->
+<div class="techsell_counter_area">
+    <div class="container">
+        <div class="row">
+            <!-- Satisfied Clients Counter -->
+            <div class="col-lg-3 col-md-6">
+                <div class="witr_counter_single all_counter_color">
+                    <div class="witr_counter_icon">
+                        <i class="ti ti-user"></i>
+                    </div>
+                    <div class="witr_counter_number_inn">
+                        <h3 class="counter">50</h3>
+                        <span>K+</span>
+                        <h4>Satisfied Clients</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Loan Disbursement Counter -->
+            <div class="col-lg-3 col-md-6">
+                <div class="witr_counter_single all_counter_color">
+                    <div class="witr_counter_icon">
+                        <i class="ti ti-money"></i>
+                    </div>
+                    <div class="witr_counter_number_inn">
+                        <h3 class="counter">500</h3>
+                        <span>M</span>
+                        <h4>Loans Disbursed</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Business Partners Counter -->
+            <div class="col-lg-3 col-md-6">
+                <div class="witr_counter_single all_counter_color">
+                    <div class="witr_counter_icon">
+                        <i class="ti ti-briefcase"></i>
+                    </div>
+                    <div class="witr_counter_number_inn">
+                        <h3 class="counter">100</h3>
+                        <span>+</span>
+                        <h4>Business Partners</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Years of Experience Counter -->
+            <div class="col-lg-3 col-md-6">
+                <div class="witr_counter_single all_counter_color">
+                    <div class="witr_counter_icon">
+                        <i class="ti ti-check-box"></i>
+                    </div>
+                    <div class="witr_counter_number_inn">
+                        <h3 class="counter">15</h3>
+                        <span>+</span>
+                        <h4>Years of Excellence</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

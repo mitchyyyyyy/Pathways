@@ -1,0 +1,739 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% load static %}
+
+<style>
+    .witr_swiper_height {
+        background-size: cover !important;
+        background-position: center !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        height: 80vh !important;
+        object-fit: contain;
+        aspect-ratio: 16/9 !important;
+    }
+</style>
+
+<!-----START CAROUSEL SLIDER SECTION------->
+<div class="witr_swiper_area">
+    <div class="swiper-container swiper_active">
+        <div class="swiper-wrapper">
+            <!-- Slide 1: Main Financial Services -->
+            <div class="swiper-slide d1 t1 m1 witr_swiper_height" 
+                 style="background-image: url({% static 'assets/images/slider2.jpg' %})" 
+                 aria-label="Financial services showcase">
+                <div class="witr_sw_text_area text-left">
+                    <div class="witr_swiper_content">
+                        <h1>Welcome to Pathways Credit Limited</h1>
+                        <h3>Empowering Your Financial Journey</h3>
+                        <h4>Quick & Accessible Credit Solutions</h4>
+                        <p>Experience hassle-free lending with competitive rates, flexible terms, 
+                           and personalized financial solutions designed for your success.</p>
+                        <div class="slider_btn">
+                            <div class="witr_btn_style">
+                                <div class="witr_btn_sinner">
+                                    <a class="witr_btn" href="#">Apply Now</a>
+                                    <a class="witr_btn active recpwit" href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2: Business Solutions -->
+            <div class="swiper-slide d1 t1 m1 witr_swiper_height" 
+                 style="background-image: url({% static 'assets/images/slider1.jpg' %})"
+                 aria-label="Business financing solutions">
+                <div class="witr_sw_text_area text-left">
+                    <div class="witr_swiper_content">
+                        <h1>Business Growth Partners</h1>
+                        <h3>Unlock Your Business Potential</h3>
+                        <h4>Tailored Business Financing</h4>
+                        <p>From working capital to expansion loans, we provide the financial 
+                           support your business needs to thrive and grow.</p>
+                        <div class="slider_btn">
+                            <div class="witr_btn_style">
+                                <div class="witr_btn_sinner">
+                                    <a class="witr_btn" href="#">Business Solutions</a>
+                                    <a class="witr_btn active recpwit" href="#">Calculate Rates</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: Personal Loans -->
+            <div class="swiper-slide d1 t1 m1 witr_swiper_height" 
+                 style="background-image: url({% static 'assets/images/slider1.jpg' %})"
+                 aria-label="Personal loan solutions">
+                <div class="witr_sw_text_area text-left">
+                    <div class="witr_swiper_content">
+                        <h1>Personal Financial Solutions</h1>
+                        <h3>Your Dreams, Our Priority</h3>
+                        <h4>Fast Personal Loans</h4>
+                        <p>Access quick personal loans with competitive rates, flexible repayment terms, 
+                           and minimal documentation requirements.</p>
+                        <div class="slider_btn">
+                            <div class="witr_btn_style">
+                                <div class="witr_btn_sinner">
+                                    <a class="witr_btn" href="#">Get Started</a>
+                                    <a class="witr_btn active recpwit" href="#">Our Products</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- techsell about area -->
+<div class="techsell_about_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="single_image_area">
+                    <div class="single_image single_line_option">
+                        <img src="{% static 'assets/images/abouts.jpg' %}" alt="Pathways Credit Limited office building and team">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="about_right_inner">
+                    <div class="witr_section_title">
+                        <div class="witr_section_title_inner text-left">
+                            <h2>ABOUT PATHWAYS CREDIT LIMITED</h2>
+                            <h3>Your Trusted Partner in Financial Growth - <span>Empowering Dreams</span></h3>
+                            <p>Pathways Credit Limited is a leading financial institution with over 15 years of excellence in providing innovative credit solutions and financial services. Based in Kenya, we serve individuals and businesses with personalized lending solutions, competitive rates, and exceptional customer service. Our commitment to financial inclusion has helped thousands achieve their dreams.</p>
+                        </div>
+                    </div>
+                    <!-- single item -->
+                    <div class="em-service2 sleft all_color_service">
+                        <div class="em_service_content">
+                            <div class="em_single_service_text width_height_link_0">
+                                <div class="service_top_image"></div>
+                                <div class="text_box witr_s_flex">
+                                    <div class="service_top_text all_icon_color">
+                                        <div class="em-service-icon">
+                                            <i class="icofont icofont-bank"></i>
+                                        </div>
+                                    </div>
+                                    <div class="em-service-inner">
+                                        <div class="em-service-title">
+                                            <h3>Our Legacy of Trust</h3>
+                                        </div>
+                                        <div class="em-service-desc">
+                                            <p>Since our establishment, we've built a strong reputation for financial integrity and customer-centric services. Our track record shows consistent growth and unwavering commitment to ethical lending practices.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single item -->
+                    <div class="em-service2 sleft all_color_service">
+                        <div class="em_service_content">
+                            <div class="em_single_service_text width_height_link_0">
+                                <div class="service_top_image"></div>
+                                <div class="text_box witr_s_flex">
+                                    <div class="service_top_text all_icon_color">
+                                        <div class="em-service-icon">
+                                            <i class="icofont icofont-chart-growth"></i>
+                                        </div>
+                                    </div>
+                                    <div class="em-service-inner">
+                                        <div class="em-service-title">
+                                            <h3>Our Vision & Mission</h3>
+                                        </div>
+                                        <div class="em-service-desc">
+                                            <p>We strive to be Kenya's most trusted financial partner, providing accessible credit solutions that transform lives. Our mission is to empower economic growth through innovative financial services.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="witr_button_area">
+                        <div class="witr_btn_style mr">
+                            <div class="witr_btn_sinner">
+                                <a href="{% url 'base:about' %}" class="witr_btn">Discover More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- techsell counter area -->
+<div class="techsell_counter_area">
+    <div class="container">
+        <div class="row">
+            <!-- Satisfied Clients Counter -->
+            <div class="col-lg-3 col-md-6">
+                <div class="witr_counter_single all_counter_color">
+                    <div class="witr_counter_icon">
+                        <i class="ti ti-user"></i>
+                    </div>
+                    <div class="witr_counter_number_inn">
+                        <h3 class="counter">50</h3>
+                        <span>K+</span>
+                        <h4>Satisfied Clients</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Loan Disbursement Counter -->
+            <div class="col-lg-3 col-md-6">
+                <div class="witr_counter_single all_counter_color">
+                    <div class="witr_counter_icon">
+                        <i class="ti ti-money"></i>
+                    </div>
+                    <div class="witr_counter_number_inn">
+                        <h3 class="counter">500</h3>
+                        <span>M</span>
+                        <h4>Loans Disbursed</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Business Partners Counter -->
+            <div class="col-lg-3 col-md-6">
+                <div class="witr_counter_single all_counter_color">
+                    <div class="witr_counter_icon">
+                        <i class="ti ti-briefcase"></i>
+                    </div>
+                    <div class="witr_counter_number_inn">
+                        <h3 class="counter">100</h3>
+                        <span>+</span>
+                        <h4>Business Partners</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Years of Experience Counter -->
+            <div class="col-lg-3 col-md-6">
+                <div class="witr_counter_single all_counter_color">
+                    <div class="witr_counter_icon">
+                        <i class="ti ti-check-box"></i>
+                    </div>
+                    <div class="witr_counter_number_inn">
+                        <h3 class="counter">15</h3>
+                        <span>+</span>
+                        <h4>Years of Excellence</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- techsell service area -->
+<div class="techsell_service_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- title center -->
+                <div class="witr_section_title">
+                    <div class="witr_section_title_inner text-center">
+                        <!-- title top -->
+                        <h2>Our Service</h2>
+                        <h3>We run all kinds of service</h3>
+                        <!-- title bottom -->
+                        <h1>that your success</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- single service -->
+            {% for service in services %}
+            <div class="col-lg-4 col-md-6">
+                <div class="em-service all_color_service text-center">
+                    <div class="em_service_content">
+                        <div class="em_single_service_text ">
+                            <div class="service_top_text">
+                                <div class="em-service-icon all_icon_color">
+                                    <i class="icofont {{ random_icon }}"></i>
+                                </div>
+                                <div class="em-service-title">
+                                    <!-- title -->
+                                    <h3><a href="{% url 'base:service-detail' service.slug %}">{{ service.name }}</a></h3>
+                                </div>
+                            </div>
+                            <div class="em-service-inner">
+                                <div class="em-service-desc">
+                                    <!-- content -->
+                                    <p>You can rely on our 24/7 support is that will gladly solve any app issue you
+                                        may have. </p>
+                                </div>
+                            </div>
+                            <!-- button -->
+                            <div class="service-btn">
+                                <a href="{% url 'base:service-detail' service.slug %}">Read More </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            
+        </div>
+    </div>
+</div>
+
+<!-- team area -->
+<div class="em_team_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="witr_section_title">
+                    <div class="witr_section_title_inner text-center">
+                        <h2>Our Team Member</h2>
+                        <h3>We’re Experienced Professionals</h3>
+                        <h1>Our Employ</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row team_active">
+            <!-- single team -->
+            <div class="col-lg-12">
+                <div class="team-part all_color_team ">
+                    <div class="witr_team_section">
+                        <img src="{% static 'assets/images/team-03.jpg' %}" alt="image" />
+                    </div>
+                    <div class="witr_team_content all_content_bg_color text-center">
+                        <h5><a href="#">Metton Alex </a></h5>
+                        <span>Founder </span>
+                        <div class="team_o_icons all_team_icon_o_color">
+                            <ul class="witr_pots_team_s">
+                                <li> <a href="#"><i class="icofont-facebook"></i></a></li>
+                                <li> <a href="#"><i class="icofont-twitter"></i></a></li>
+                                <li> <a href="#"><i class="icofont-tumblr"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 02 single team -->
+            <div class="col-lg-12">
+                <div class="team-part all_color_team ">
+                    <div class="witr_team_section">
+                        <img src="{% static 'assets/images/team-02.jpg' %}" alt="image" />
+                    </div>
+                    <div class="witr_team_content all_content_bg_color text-center">
+                        <h5><a href="#">Patrick Griffin </a></h5>
+                        <span>Deveploper </span>
+                        <div class="team_o_icons all_team_icon_o_color">
+                            <ul class="witr_pots_team_s">
+                                <li> <a href="#"><i class="icofont-facebook"></i></a></li>
+                                <li> <a href="#"><i class="icofont-twitter"></i></a></li>
+                                <li> <a href="#"><i class="icofont-tumblr"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 03 single team -->
+            <div class="col-lg-12">
+                <div class="team-part all_color_team ">
+                    <div class="witr_team_section">
+                        <img src="{% static 'assets/images/team-03.jpg' %}" alt="image" />
+                    </div>
+                    <div class="witr_team_content all_content_bg_color text-center">
+                        <h5><a href="#">Maruf Zarvin </a></h5>
+                        <span>Senior Officer </span>
+                        <div class="team_o_icons all_team_icon_o_color">
+                            <ul class="witr_pots_team_s">
+                                <li> <a href="#"><i class="icofont-facebook"></i></a></li>
+                                <li> <a href="#"><i class="icofont-twitter"></i></a></li>
+                                <li> <a href="#"><i class="icofont-tumblr"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 04 single team -->
+            <div class="col-lg-12">
+                <div class="team-part all_color_team ">
+                    <div class="witr_team_section">
+                        <img src="{% static 'assets/images/team-01.jpg' %}" alt="image" />
+                    </div>
+                    <div class="witr_team_content all_content_bg_color text-center">
+                        <h5><a href="#">Rayhan Khan </a></h5>
+                        <span>Team Leder </span>
+                        <div class="team_o_icons all_team_icon_o_color">
+                            <ul class="witr_pots_team_s">
+                                <li> <a href="#"><i class="icofont-facebook"></i></a></li>
+                                <li> <a href="#"><i class="icofont-twitter"></i></a></li>
+                                <li> <a href="#"><i class="icofont-tumblr"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Why Choose Us Section -->
+<div class="techsell_why_choose_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <div class="single_image_area">
+                    <div class="single_image single_line_option">
+                        <img src="{% static 'assets/images/choose-thumb2.png' %}" alt="Pathways Credit Limited financial advisors in Kenya offering personalized loan solutions" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="witr_section_title">
+                    <div class="witr_section_title_inner text-left">
+                        <h2>Why Choose Pathways Credit Limited</h2>
+                        <h3>Kenya's Trusted Financial Partner <span>Empowering Your Success</span></h3>
+                        <p>With over 15 years of excellence in Kenya's financial sector, Pathways Credit Limited delivers innovative credit solutions tailored to both individuals and businesses. Our commitment to financial inclusion and customer satisfaction sets us apart in the Kenyan credit market.</p>
+                    </div>
+                </div>
+                <div class="why_choose_right_inner">
+                    <!-- Quick Processing -->
+                    <div class="service-item all_color_service width_height_link_0 text-center">
+                        <div class="service_top_image"></div>
+                        <div class="text_box all_icon_color">
+                            <i class="ti ti-timer"></i>
+                            <h3><a href="#">Quick Loan Processing</a></h3>
+                            <p>24-hour approval process with minimal documentation</p>
+                        </div>
+                    </div>
+                    <!-- Competitive Rates -->
+                    <div class="service-item all_color_service width_height_link_0 text-center">
+                        <div class="service_top_image"></div>
+                        <div class="text_box all_icon_color">
+                            <i class="aprova aprova-verified-text-paper"></i>
+                            <h3><a href="#">Competitive Interest Rates</a></h3>
+                            <p>Market-leading rates starting from 1.5% monthly</p>
+                        </div>
+                    </div>
+                    <!-- Flexible Terms -->
+                    <div class="service-item all_color_service width_height_link_0 text-center">
+                        <div class="service_top_image"></div>
+                        <div class="text_box all_icon_color">
+                            <i class="ti ti-clipboard"></i>
+                            <h3><a href="#">Flexible Terms</a></h3>
+                            <p>Customized repayment plans up to 48 months</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="witr_button_area">
+                    <div class="witr_btn_style mr">
+                        <div class="witr_btn_sinner">
+                            <a href="#" class="witr_btn">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Testimonial Section -->
+<div class="techsell_testimonial_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="witr_section_title">
+                    <div class="witr_section_title_inner text-center">
+                        <h2>Client Success Stories</h2>
+                        <h3>Trusted by Thousands of Kenyans</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row testimonial_active">
+            <!-- Business Owner Testimonial -->
+            <div class="col-lg-12">
+                <div class="em_single_testimonial">
+                    <div class="test_text_all">
+                        <div class="test-part mt-50">
+                            <ul>
+                                <li>
+                                    <div class="execllent_toggol">
+                                        <div class="em_crating">
+                                            <i class="icofont-star active"></i>
+                                            <i class="icofont-star active"></i>
+                                            <i class="icofont-star active"></i>
+                                            <i class="icofont-star active"></i>
+                                            <i class="icofont-star active"></i>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="em_testi_content">
+                            <div class="em_testi_text">
+                                <p>"Pathways Credit Limited helped me expand my retail business in Nairobi. Their business loan was approved quickly, and the flexible repayment terms allowed me to manage my cash flow effectively. Their support has been instrumental in growing my business."</p>
+                            </div>
+                        </div>
+                        <div class="em_test_thumb">
+                            <img src="{% static 'assets/images/test2.png' %}" alt="Successful Kenyan business owner testimonial" />
+                        </div>
+                        <div class="em_testi_title">
+                            <h2>James Kimani <span>Business Owner, Nairobi</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Personal Loan Client -->
+            <div class="col-lg-12">
+                <div class="em_single_testimonial">
+                    <div class="test_text_all">
+                        <div class="test-part mt-50">
+                            <ul>
+                                <li>
+                                    <div class="execllent_toggol">
+                                        <div class="em_crating">
+                                            <i class="icofont-star active"></i>
+                                            <i class="icofont-star active"></i>
+                                            <i class="icofont-star active"></i>
+                                            <i class="icofont-star active"></i>
+                                            <i class="icofont-star active"></i>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="em_testi_content">
+                            <div class="em_testi_text">
+                                <p>"The personal loan process at Pathways was seamless. Their staff guided me through every step, and I received the funds within 24 hours. The competitive interest rates and transparent terms made them the best choice for my financial needs."</p>
+                            </div>
+                        </div>
+                        <div class="em_test_thumb">
+                            <img src="{% static 'assets/images/test2.png' %}" alt="Satisfied personal loan client in Kenya" />
+                        </div>
+                        <div class="em_testi_title">
+                            <h2>Sarah Wanjiku <span>Teacher, Mombasa</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FAQ Section -->
+<div class="techsell_accordion_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="witr_section_title">
+                    <div class="witr_section_title_inner text-left">
+                        <h2>Common Questions</h2>
+                        <h3>Everything You Need to Know About Our Credit Solutions</h3>
+                        <p>Find answers to common questions about our loan products, application process, and financial services in Kenya.</p>
+                    </div>
+                </div>
+                <div class="accordion_area">
+                    <div class="faq-part">
+                        <div id="accordion">
+                            <!-- Loan Requirements -->
+                            <div class="card card-2 active show">
+                                <div class="card-header witr_ac_card">
+                                    <a href="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_loan_req">
+                                        <i class=""></i> What are the loan requirements?
+                                    </a>
+                                </div>
+                                <div id="collapse_loan_req" class="collapse ac_s_padding active show" data-parent="#accordion">
+                                    <p>Requirements include valid ID, proof of income (payslips or business statements), bank statements for the last 6 months, and KRA PIN. Additional requirements may apply based on loan type and amount.</p>
+                                </div>
+                            </div>
+                            <!-- Interest Rates -->
+                            <div class="card card-2">
+                                <div class="card-header witr_ac_card">
+                                    <a href="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_rates">
+                                        <i class=""></i> What are your interest rates?
+                                    </a>
+                                </div>
+                                <div id="collapse_rates" class="collapse ac_s_padding" data-parent="#accordion">
+                                    <p>Our interest rates start from 1.5% monthly, varying based on loan type, amount, and term. We offer competitive rates compared to other financial institutions in Kenya, with transparent fee structures.</p>
+                                </div>
+                            </div>
+                            <!-- Loan Processing Time -->
+                            <div class="card card-2">
+                                <div class="card-header witr_ac_card">
+                                    <a href="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_processing">
+                                        <i class=""></i> How long does loan processing take?
+                                    </a>
+                                </div>
+                                <div id="collapse_processing" class="collapse ac_s_padding" data-parent="#accordion">
+                                    <p>Most loans are processed within 24 hours after submitting complete documentation. Emergency loans can be processed in as little as 3 hours for existing clients with good credit history.</p>
+                                </div>
+                            </div>
+                            <!-- Repayment Terms -->
+                            <div class="card card-2">
+                                <div class="card-header witr_ac_card">
+                                    <a href="#" class="card-link witr_ac_style" data-toggle="collapse" data-target="#collapse_repayment">
+                                        <i class=""></i> What are the repayment terms?
+                                    </a>
+                                </div>
+                                <div id="collapse_repayment" class="collapse ac_s_padding" data-parent="#accordion">
+                                    <p>We offer flexible repayment terms ranging from 1 to 48 months. Payments can be made through M-PESA, bank transfer, or direct debit. Early repayment is allowed with no penalties.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="single_image_area">
+                    <div class="single_image single_line_option">
+                        <img src="{% static 'assets/images/choose-thumb2.png' %}" alt="Pathways Credit Limited customer service team in Kenya">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- techsell brand area -->
+<div class="techsell_brand_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="carousel_imagess_area">
+                    <div class="brand_active">
+                        <!-- single brand -->
+                        <div class="col-lg-12">
+                            <div class="slide_items  ">
+                                <!-- image -->
+                                <a href="#"><img src="{% static 'assets/images/br5.png' %}" alt="image"></a>
+                            </div>
+                        </div>
+                        <!-- 02 single brand -->
+                        <div class="col-lg-12">
+                            <div class="slide_items  ">
+                                <!-- image -->
+                                <a href="#"><img src="{% static 'assets/images/br4.png' %}" alt="image"></a>
+                            </div>
+                        </div>
+                        <!-- 03 single brand -->
+                        <div class="col-lg-12">
+                            <div class="slide_items  ">
+                                <!-- image -->
+                                <a href="#"><img src="{% static 'assets/images/br3.png' %}" alt="image"></a>
+                            </div>
+                        </div>
+                        <!-- 04 single brand -->
+                        <div class="col-lg-12">
+                            <div class="slide_items  ">
+                                <!-- image -->
+                                <a href="#"><img src="{% static 'assets/images/br2.png' %}" alt="image"></a>
+                            </div>
+                        </div>
+                        <!-- 05 single brand -->
+                        <div class="col-lg-12">
+                            <div class="slide_items  ">
+                                <!-- image -->
+                                <a href="#"><img src="{% static 'assets/images/br1.png' %}" alt="image"></a>
+                            </div>
+                        </div>
+                        <!-- 06 single brand -->
+                        <div class="col-lg-12">
+                            <div class="slide_items  ">
+                                <!-- image -->
+                                <a href="#"><img src="{% static 'assets/images/br5.png' %}" alt="image"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- techsell blog area -->
+<div class="techsell_blog_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- title center -->
+                <div class="witr_section_title">
+                    <div class="witr_section_title_inner text-center">
+                        <!-- title top -->
+                        <h2>Blog Post</h2>
+                        <!-- title middle -->
+                        <h3>Our Recent Update</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <!-- Blog Section -->
+                <div class="witr_blog_area12">
+                    <div class=" row">
+                        <!-- single blog -->
+                        <div class="witr_all_mb_30 col-lg-4 col-md-6">
+                            <div class="busi_singleBlog">
+                                <div class="witr_sb_thumb">
+                                    <a href="#"><img src="{% static 'assets/images/blog9.jpg' %}" alt="image" /></a>
+                                </div>
+                                <div class="all_blog_color">
+                                    <div class="witr_blog_con bs5">
+                                        <span><a href="#"><i class="icofont-user-alt-3"></i> By Admin Techsell
+                                                .</a></span>
+                                        <span><a href="#"><i class="icofont-ui-clock"></i></a> 08 Jun 2024</span>
+                                        <h2><a href="single-blog.html">How investing in depended increasing to
+                                                business.</a></h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 02 single blog -->
+                        <div class="witr_all_mb_30 col-lg-4 col-md-6">
+                            <div class="busi_singleBlog">
+                                <div class="witr_sb_thumb">
+                                    <a href="#"><img src="{% static 'assets/images/blog8.jpg' %}" alt="image" /></a>
+                                </div>
+                                <div class="all_blog_color">
+                                    <div class="witr_blog_con bs5">
+                                        <span><a href="#"><i class="icofont-user-alt-3"></i> By Admin Techsell
+                                                .</a></span>
+                                        <span><a href="#"><i class="icofont-ui-clock"></i></a> 15 Jun 2024</span>
+                                        <h2><a href="single-blog.html">Seven Things You Probably Didn’t Know
+                                                About</a></h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 03 single blog -->
+                        <div class="witr_all_mb_30 col-lg-4 col-md-6">
+                            <div class="busi_singleBlog">
+                                <div class="witr_sb_thumb">
+                                    <a href="#"><img src="{% static 'assets/images/blog7.jpg' %}" alt="image" /></a>
+                                </div>
+                                <div class="all_blog_color">
+                                    <div class="witr_blog_con bs5">
+                                        <span><a href="#"><i class="icofont-user-alt-3"></i> By Admin Techsell
+                                                .</a></span>
+                                        <span><a href="#"><i class="icofont-ui-clock"></i></a> 25 Jun 2024</span>
+                                        <h2><a href="single-blog.html">You Will Never Believe These Bizarre
+                                                Truths</a></h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

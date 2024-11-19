@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% load static %}
+
+<!-- breadcumb area -->
+<div class="breadcumb-area">
+	<div class="container">				
+		<div class="row">
+			<div class="col-md-12 txtc  text-center ccase">
+				<div class="brpt">
+					<h2>Single Service</h2>
+				</div>
+				<div class="breadcumb-inner">				
+					<ul>
+						<li>Home <i class="fas fa-angle-right"></i> </li>
+						<li><a href="#" rel="v:url" property="v:title">Service</a></li>
+						<li><i class="fas fa-angle-right"></i></li>
+						<li><span class="current">{{ service.name }}</span></li>
+					</ul>					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End breadcumb area -->
+<!-- single service area -->
+<div class="single_service_area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="witr_text_widget">
+					<div class="witr_text_widget_inner">
+                        
+                        {% if service.image %}
+						<img src="{{ service.image.url }}" alt="{{ service.name }}" />
+                        {% endif %}
+
+						<h2>{{ service.name }}</h2>	
+                        
+                        {% autoescape off %}
+                        <p>{{ service.content }}</p>
+                        {% endautoescape %}						
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- accordion area1 -->
+<div class="faq_area1 single_service_faq1">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<div class="accordion_area accordion_area_02">
+                    <div class="faq-part">
+                        <div id="accordion">
+							<!--01 single card -->	
+							<div class="card card-2 accordion_02_shadow active show">
+								<div class="card-header witr_ac_card border_bottom_0">
+									<a href="#" class="card-link witr_ac_style writ_ac_style_02 collapsed" data-toggle="collapse" data-target="#collapse_05" aria-expanded="false">	
+									Where is my order?</a>
+								</div>
+								<div id="collapse_05" class=" collapse content_style active show" data-parent="#accordion" style="">
+									<p>Lorem ipsum dolorconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam, quis nostrud exercitation.still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like) </p>
+								</div>
+							</div>
+							<!--02 single card -->	
+							<div class="card card-2 accordion_02_shadow">
+								<div class="card-header witr_ac_card border_bottom_0">
+									<a href="#" class="card-link witr_ac_style writ_ac_style_02" data-toggle="collapse" data-target="#collapse_1" aria-expanded="true">	
+									How can I return an Item?</a>
+								</div>
+								<div id="collapse_1" class="collapse content_style " data-parent="#accordion">
+                                    <p>Lorem ipsum dolorconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam, quis nostrud exercitation.still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like) </p>
+								</div>
+							</div> 
+							<!--03 single card -->	
+							<div class="card card-2 accordion_02_shadow">
+								<div class="card-header witr_ac_card border_bottom_0">
+									<a href="#" class="card-link witr_ac_style writ_ac_style_02" data-toggle="collapse" data-target="#collapse_2" aria-expanded="true">	
+									Can I cancel my order?</a>
+								</div>
+								<div id="collapse_2" class="collapse  content_style " data-parent="#accordion">
+                                    <p>Lorem ipsum dolorconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam, quis nostrud exercitation.still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)</p>
+								</div>
+							</div>
+							<!--04 single card -->	
+							<div class="card card-2 accordion_02_shadow">
+								<div class="card-header witr_ac_card border_bottom_0">
+									<a href="#" class="card-link witr_ac_style writ_ac_style_02" data-toggle="collapse" data-target="#collapse_3" aria-expanded="true">	
+									Consectetur adipisicing the 1500s? </a>
+								</div>
+								<div id="collapse_3" class="collapse  content_style " data-parent="#accordion">
+									<p>Lorem ipsum dolorconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam, quis nostrud exercitation.still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)</p>
+								</div>
+							</div>
+							<!--05 single card -->	
+							<div class="card card-2 accordion_02_shadow">
+								<div class="card-header witr_ac_card border_bottom_0">
+									<a href="#" class="card-link witr_ac_style writ_ac_style_02" data-toggle="collapse" data-target="#collapse_4" aria-expanded="true">	
+									What is Our Economic Plan for this year?</a>
+								</div>
+								<div id="collapse_4" class="collapse  content_style " data-parent="#accordion">
+									<p>Lorem ipsum dolorconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam, quis nostrud exercitation.still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like) </p>
+								</div>
+							</div> 
+							<!--06 single card -->	
+							<div class="card card-2 accordion_02_shadow">
+								<div class="card-header witr_ac_card border_bottom_0">
+									<a href="#" class="card-link witr_ac_style writ_ac_style_02" data-toggle="collapse" data-target="#collapse_5" aria-expanded="true">	
+									How can I pay for my purchases?</a>
+								</div>
+								<div id="collapse_5" class="collapse  content_style " data-parent="#accordion">
+									<p>Lorem ipsum dolorconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu ad minim veniam, quis nostrud exercitation.still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like) </p>
+								</div>
+							</div> 
+							
+						</div>
+                    </div> 	
+                </div>
+			</div>
+		
+		</div>
+	</div>
+</div>
+
+{% endblock %}

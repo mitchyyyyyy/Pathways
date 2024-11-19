@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% load static %}
+
+<div class="breadcumb-area">
+	<div class="container">				
+		<div class="row">
+			<div class="col-md-12 txtc  text-center ccase">
+				<div class="brpt">
+					<h2>Service</h2>
+				</div>
+				<div class="breadcumb-inner">				
+					<ul>
+						<li>You are currently here! <i class="fas fa-angle-right"></i> </li>
+						<li><a href="#" rel="v:url" property="v:title">Home</a></li>
+						<li><i class="fas fa-angle-right"></i></li>
+						<li><span class="current">Service</span></li>
+					</ul>					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End breadcumb area -->
+
+<!-- techsell service area -->
+<div class="techsell_service_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- title center -->
+                <div class="witr_section_title">
+                    <div class="witr_section_title_inner text-center">
+                        <h2>Our Service</h2>
+						<h3>What Services We Provide to Our</h3>
+						<h1>Customers Business</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- single service -->
+            {% for service in services %}
+            <div class="col-lg-4 col-md-6">
+                <div class="em-service all_color_service text-center">
+                    <div class="em_service_content">
+                        <div class="em_single_service_text ">
+                            <div class="service_top_text">
+                                <div class="em-service-icon all_icon_color">
+                                    <i class="icofont {{ random_icon }}"></i>
+                                </div>
+                                <div class="em-service-title">
+                                    <!-- title -->
+                                    <h3><a href="{% url 'base:service-detail' service.slug %}">{{ service.name }}</a></h3>
+                                </div>
+                            </div>
+                            <div class="em-service-inner">
+                                <div class="em-service-desc">
+                                    <!-- content -->
+                                    <p>You can rely on our 24/7 support is that will gladly solve any app issue you
+                                        may have. </p>
+                                </div>
+                            </div>
+                            <!-- button -->
+                            <div class="service-btn">
+                                <a href="{% url 'base:service-detail' service.slug %}">Read More </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            
+        </div>
+    </div>
+</div>
+
+{% endblock %}

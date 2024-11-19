@@ -1,0 +1,137 @@
+{% load static %}
+
+ <!-- footer area -->
+ <div class="witrfm_area">
+    <div class="footer-middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6  col-lg-3">
+                    <div id="twr_description_widget-2" class="widget widget_twr_description_widget">
+                        <div class="techsell-description-area">
+                            <a href="#">
+                                <img src="{{ company.logo.url }}" alt="{{ company.name}}"
+                                    class="logo-img">
+                                </a>
+                            <!-- <p>Round whitefish flat loach potted killifish ronquil. Long-finned pike escolar
+                                northern pike escolar nor thern squawfish eel.</p> -->
+                            <p class="phone"><a href="tel:"> </a></p>
+                            <div class="social-icons">
+                                <a href="{{ company.facebook}}"><i class="icofont-facebook"></i></a>
+                                <a href="{{ company.twitter}}"><i class="icofont-twitter"></i></a>
+                                <a href="{{ company.linkedin}}"><i class="icofont-linkedin"></i></a>
+                                <a href="{{ company.instagram}}"><i class="icofont-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6  col-lg-3">
+                    <div id="nav_menu-2" class="widget widget_nav_menu">
+                        <h2 class="widget-title">Useful Links</h2>
+                        <div class="menu-useful-links-container">
+                            <ul class="menu">
+                                {% for link in services %}
+                                <li><a href="{% url 'base:service-detail' link.slug %}">{{ link.name }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6  col-lg-3">
+                    <div class="widget about_us">
+                        <h2 class="widget-title">Address Us</h2>
+                        <div class="about-footer">
+                            <div class="footer-widget address">
+                                <div class="footer-logo"></div>
+                                <div class="footer-address">
+                                    <div class="footer_s_inner">
+                                        <div class="footer-sociala-icon">
+                                            <i class="icofont-google-map"></i>
+                                        </div>
+                                        <div>
+                                            <p>{{ company.location }}</p>
+                                        </div>
+                                    </div>
+                                    <div class="footer_s_inner">
+                                        <div class="footer-sociala-icon">
+                                            <i class="icofont-phone"></i>
+                                        </div>
+                                        <div>
+                                            <p>{{ company.phone }}</p>
+                                        </div>
+                                    </div>
+                                    <div class="footer_s_inner">
+                                        <div class="footer-sociala-icon">
+                                            <i class="icofont-envelope-open"></i>
+                                        </div>
+                                        <div>
+                                            <p>{{ company.email }}</p>
+                                        </div>
+                                    </div>
+                                    <div class="footer_s_inner">
+                                        <div class="footer-sociala-icon">
+                                            <i class="icofont-ui-clock"></i>
+                                        </div>
+                                        <div>
+                                            <p>Opening Hours: 8:00 - 5:00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6  col-lg-3">
+                    <div id="nav_menu-3" class="widget widget_nav_menu">
+                        <h2 class="widget-title">Navigation</h2>
+                        <div class="menu-navigation-container">
+                            <ul class="menu">
+                                <li><a href="#">Become an Affiliate</a></li>
+                                <li><a href="#">About Drone</a></li>
+                                <li><a href="#">Community Meetups</a></li>
+                                <li><a href="#">Why Buy With Us?</a></li>
+                                <li><a href="#">Blog and News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6  col-sm-12">
+                    <div class="copy-right-text">
+                        <p>{% now 'Y' %} &copy; {{ company.name }} all rights reserved.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6  col-sm-12">
+                    <div class="footer-menu">
+                        {% with request.path as current_path %}
+                        <ul class="text-right">
+                            <li>
+                                <a href="{% url 'base:home' %}" class="{% if current_path == '/' %}active{% endif %}">Home</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'base:about' %}" class="{% if 'about' in current_path %}active{% endif %}">About Us</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'base:services' %}" class="{% if 'services' in current_path %}active{% endif %}">Service</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'base:team' %}" class="{% if 'team' in current_path %}active{% endif %}">Our Team</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'base:blog' %}" class="{% if 'blog' in current_path %}active{% endif %}">Blog</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'base:contact' %}" class="{% if 'contact' in current_path %}active{% endif %}">Contact</a>
+                            </li>
+                        </ul>
+                        {% endwith %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
