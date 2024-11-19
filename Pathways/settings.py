@@ -347,8 +347,8 @@ if DEBUG:
     STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
     MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 else:
-    STATIC_ROOT = '/home6/briankiptoo/Pathways/assets/'
-    MEDIA_ROOT = '/home6/briankiptoo/Pathways/media/'
+    STATIC_ROOT = '/home6/nelsonel/Pathways/assets/'
+    MEDIA_ROOT = '/home6/nelsonel/Pathways/media/'
 
 # Use WhiteNoise for static files
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
