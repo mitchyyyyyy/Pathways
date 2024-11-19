@@ -1,0 +1,900 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-11-17T12:01:49.151Z",
+        "user": 1,
+        "content_type": 34,
+        "object_id": "1",
+        "object_repr": "PathWays Credit Limited",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2024-11-17T12:17:27.879Z",
+        "user": 1,
+        "content_type": 34,
+        "object_id": "1",
+        "object_repr": "PathWays Credit Limited",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Location\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2024-11-17T12:21:10.075Z",
+        "user": 1,
+        "content_type": 34,
+        "object_id": "1",
+        "object_repr": "PathWays Credit Limited",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2024-11-17T13:03:26.370Z",
+        "user": 1,
+        "content_type": 36,
+        "object_id": "1",
+        "object_repr": "Inua Biashara loan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2024-11-17T13:04:38.188Z",
+        "user": 1,
+        "content_type": 36,
+        "object_id": "2",
+        "object_repr": "Jenga Biashara Loan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2024-11-17T13:05:22.771Z",
+        "user": 1,
+        "content_type": 36,
+        "object_id": "3",
+        "object_repr": "Dumisha Biashara Loan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2024-11-17T13:05:46.775Z",
+        "user": 1,
+        "content_type": 36,
+        "object_id": "4",
+        "object_repr": "Jijenge Loan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can add company",
+        "content_type": 34,
+        "codename": "add_company"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can change company",
+        "content_type": 34,
+        "codename": "change_company"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can delete company",
+        "content_type": 34,
+        "codename": "delete_company"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can view company",
+        "content_type": 34,
+        "codename": "view_company"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can add faq",
+        "content_type": 35,
+        "codename": "add_faq"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can change faq",
+        "content_type": 35,
+        "codename": "change_faq"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can delete faq",
+        "content_type": 35,
+        "codename": "delete_faq"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can view faq",
+        "content_type": 35,
+        "codename": "view_faq"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can add service",
+        "content_type": 36,
+        "codename": "add_service"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can change service",
+        "content_type": 36,
+        "codename": "change_service"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can delete service",
+        "content_type": 36,
+        "codename": "delete_service"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can view service",
+        "content_type": 36,
+        "codename": "view_service"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can add slider",
+        "content_type": 37,
+        "codename": "add_slider"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can change slider",
+        "content_type": 37,
+        "codename": "change_slider"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can delete slider",
+        "content_type": 37,
+        "codename": "delete_slider"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can view slider",
+        "content_type": 37,
+        "codename": "view_slider"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can add team",
+        "content_type": 38,
+        "codename": "add_team"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can change team",
+        "content_type": 38,
+        "codename": "change_team"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can delete team",
+        "content_type": 38,
+        "codename": "delete_team"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can view team",
+        "content_type": 38,
+        "codename": "view_team"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can add blog",
+        "content_type": 39,
+        "codename": "add_blog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can change blog",
+        "content_type": 39,
+        "codename": "change_blog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can delete blog",
+        "content_type": 39,
+        "codename": "delete_blog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can view blog",
+        "content_type": 39,
+        "codename": "view_blog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can add blog visit",
+        "content_type": 40,
+        "codename": "add_blogvisit"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can change blog visit",
+        "content_type": 40,
+        "codename": "change_blogvisit"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can delete blog visit",
+        "content_type": 40,
+        "codename": "delete_blogvisit"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can view blog visit",
+        "content_type": 40,
+        "codename": "view_blogvisit"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can add inquiry",
+        "content_type": 41,
+        "codename": "add_inquiry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can change inquiry",
+        "content_type": 41,
+        "codename": "change_inquiry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can delete inquiry",
+        "content_type": 41,
+        "codename": "delete_inquiry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can view inquiry",
+        "content_type": 41,
+        "codename": "view_inquiry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can add partner",
+        "content_type": 42,
+        "codename": "add_partner"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can change partner",
+        "content_type": 42,
+        "codename": "change_partner"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can delete partner",
+        "content_type": 42,
+        "codename": "delete_partner"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+        "name": "Can view partner",
+        "content_type": 42,
+        "codename": "view_partner"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$dxjPchWUXwuq2MxclpIqUA$pSvPVMBWV0c7srL/4BBwiYW28scl5UJXvaRQDTNJE6w=",
+        "last_login": "2024-11-17T11:49:55.216Z",
+        "is_superuser": true,
+        "username": "nelsonel",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-11-17T11:48:46.958Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 34,
+    "fields": {
+        "app_label": "base",
+        "model": "company"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 35,
+    "fields": {
+        "app_label": "base",
+        "model": "faq"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 36,
+    "fields": {
+        "app_label": "base",
+        "model": "service"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 37,
+    "fields": {
+        "app_label": "base",
+        "model": "slider"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 38,
+    "fields": {
+        "app_label": "base",
+        "model": "team"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 39,
+    "fields": {
+        "app_label": "base",
+        "model": "blog"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 40,
+    "fields": {
+        "app_label": "base",
+        "model": "blogvisit"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 41,
+    "fields": {
+        "app_label": "base",
+        "model": "inquiry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 42,
+    "fields": {
+        "app_label": "base",
+        "model": "partner"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "kl5ha0wrabrdpvqmmnisq4zeugdswdr2",
+    "fields": {
+        "session_data": ".eJxVjEEOgjAQRe_StWlKh9Li0r1naGamM4IaSCisjHdXEha6_e-9_zIZt3XIW5Ulj8WcTWNOvxshP2TaQbnjdJstz9O6jGR3xR602utc5Hk53L-DAevwrTvoUkwsgj504KXpU6A2KZQUg3LqlR0Kg1MOTj21CNASRlX2RCjm_QHjoDjJ:1tCdmt:C_5-fN2KORuqhuVai2X5nk9qOzL4pY2GzYQN5z0AWpI",
+        "expire_date": "2024-12-01T11:49:55.223Z"
+    }
+},
+{
+    "model": "base.company",
+    "pk": 1,
+    "fields": {
+        "name": "PathWays Credit Limited",
+        "logo": "company_logos/pathways-removebg-preview.png",
+        "phone": "0758025442",
+        "facebook": "http://pathways.fb",
+        "twitter": "http://pathwayscredit.com",
+        "linkedin": "http://pathwayscredit.com",
+        "instagram": "http://pathwayscredit.com",
+        "address": "P.O.Box 9937-00100 Nairobi.",
+        "location": "Trio complex building, Ruaraka.",
+        "email": "info@pathwayscredit.co.ke",
+        "description": null,
+        "mission": "To grow, build and maximize the potential of the businesses of the low income and unbanked of Kenya through the provision of affordable, flexible and customeroriented financial services",
+        "vision": "To be the financing partner of choice in the markets by being cashless, paperless and data driven to offer the best value, most flexible and most customer-oriented financial services in the market.",
+        "created_at": "2024-11-17T12:01:49.148Z",
+        "updated_at": "2024-11-17T12:21:10.066Z"
+    }
+},
+{
+    "model": "base.service",
+    "pk": 1,
+    "fields": {
+        "name": "Inua Biashara loan",
+        "slug": "inua-biashara-loan",
+        "image": "",
+        "content": "<p class=\"whitespace-pre-wrap break-words\">Transform your business opportunities with <strong>Pathways Credit Limited's Inua Biashara Loan.</strong> This flexible 30-day financing solution is designed to help Kenyan entrepreneurs seize immediate business opportunities and manage short-term cash flow needs.</p>\r\n<p class=\"whitespace-pre-wrap break-words\">Whether you need to restock inventory, fulfill a urgent order, or capitalize on a time-sensitive business opportunity, our Inua Biashara Loan provides the quick financial support you need. With competitive interest rates and a streamlined application process, you can access funds within 24 hours of approval.</p>\r\n<p class=\"whitespace-pre-wrap break-words\">Key Benefits:</p>\r\n<ul class=\"-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8\" style=\"font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);\">\r\n<li class=\"whitespace-normal break-words\">Quick disbursement within 24 hours</li>\r\n<li class=\"whitespace-normal break-words\">Flexible repayment terms</li>\r\n<li class=\"whitespace-normal break-words\">Minimal documentation required</li>\r\n<li class=\"whitespace-normal break-words\">No collateral needed for qualifying businesses</li>\r\n<li class=\"whitespace-normal break-words\">Competitive interest rates</li>\r\n<li class=\"whitespace-normal break-words\">Professional financial guidance</li>\r\n</ul>\r\n<p class=\"whitespace-pre-wrap break-words\">Eligibility Requirements:</p>\r\n<ul class=\"-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8\" style=\"font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);\">\r\n<li class=\"whitespace-normal break-words\">Valid business registration/license</li>\r\n<li class=\"whitespace-normal break-words\">6+ months of business operations</li>\r\n<li class=\"whitespace-normal break-words\">Bank statements for the last 3 months</li>\r\n<li class=\"whitespace-normal break-words\">Active KRA PIN</li>\r\n<li class=\"whitespace-normal break-words\">Valid ID/Passport</li>\r\n</ul>",
+        "created_at": "2024-11-17T13:03:26.357Z",
+        "updated_at": "2024-11-17T13:03:26.357Z"
+    }
+},
+{
+    "model": "base.service",
+    "pk": 2,
+    "fields": {
+        "name": "Jenga Biashara Loan",
+        "slug": "jenga-biashara-loan",
+        "image": "",
+        "content": "<p class=\"whitespace-pre-wrap break-words\">Take your business to the next level with our <strong>Jenga Biashara Loan</strong>, a comprehensive 60-day financing package designed for ambitious entrepreneurs. This extended financing option gives you more time to implement your business strategies while maintaining comfortable repayment terms.</p>\r\n<p class=\"whitespace-pre-wrap break-words\">Perfect for business expansion, equipment purchase, or working capital needs, the Jenga Biashara Loan offers the flexibility to grow your business with confidence. Our experienced financial advisors work with you to structure the loan according to your business cycle and cash flow patterns.</p>\r\n<p class=\"whitespace-pre-wrap break-words\">Key Features:</p>\r\n<ul class=\"-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8\" style=\"font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);\">\r\n<li class=\"whitespace-normal break-words\">Higher loan limits than 30-day options</li>\r\n<li class=\"whitespace-normal break-words\">Structured repayment plan over 60 days</li>\r\n<li class=\"whitespace-normal break-words\">Competitive interest rates</li>\r\n<li class=\"whitespace-normal break-words\">Business advisory services included</li>\r\n<li class=\"whitespace-normal break-words\">Option for early repayment</li>\r\n<li class=\"whitespace-normal break-words\">Digital loan management</li>\r\n</ul>\r\n<p class=\"whitespace-pre-wrap break-words\">Qualification Criteria:</p>\r\n<ul class=\"-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8\" style=\"font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);\">\r\n<li class=\"whitespace-normal break-words\">Proven business track record of 12+ months</li>\r\n<li class=\"whitespace-normal break-words\">Regular business income</li>\r\n<li class=\"whitespace-normal break-words\">Clean credit history</li>\r\n<li class=\"whitespace-normal break-words\">Valid business documentation</li>\r\n<li class=\"whitespace-normal break-words\">Bank statements for the last 6 months</li>\r\n</ul>",
+        "created_at": "2024-11-17T13:04:38.187Z",
+        "updated_at": "2024-11-17T13:04:38.187Z"
+    }
+},
+{
+    "model": "base.service",
+    "pk": 3,
+    "fields": {
+        "name": "Dumisha Biashara Loan",
+        "slug": "dumisha-biashara-loan",
+        "image": "",
+        "content": "<p class=\"whitespace-pre-wrap break-words\">Strengthen your business foundation with our Dumisha Biashara Loan, a strategic 90-day financing solution designed for established businesses looking to consolidate their market position. This three-month facility provides the perfect balance between short-term flexibility and medium-term stability.</p>\r\n<p class=\"whitespace-pre-wrap break-words\">Ideal for larger inventory purchases, business expansion, or seasonal preparations, the Dumisha Biashara Loan gives you the breathing room to implement substantial business improvements while maintaining healthy cash flow.</p>\r\n<p class=\"whitespace-pre-wrap break-words\">Strategic Advantages:</p>\r\n<ul class=\"-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8\" style=\"font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);\">\r\n<li class=\"whitespace-normal break-words\">Enhanced loan limits</li>\r\n<li class=\"whitespace-normal break-words\">90-day repayment flexibility</li>\r\n<li class=\"whitespace-normal break-words\">Competitive market rates</li>\r\n<li class=\"whitespace-normal break-words\">Dedicated relationship manager</li>\r\n<li class=\"whitespace-normal break-words\">Business growth consulting</li>\r\n<li class=\"whitespace-normal break-words\">Optional grace period</li>\r\n</ul>\r\n<p class=\"whitespace-pre-wrap break-words\">Requirements:</p>\r\n<ul class=\"-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8\" style=\"font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);\">\r\n<li class=\"whitespace-normal break-words\">18+ months of business operations</li>\r\n<li class=\"whitespace-normal break-words\">Consistent revenue history</li>\r\n<li class=\"whitespace-normal break-words\">Updated business records</li>\r\n<li class=\"whitespace-normal break-words\">Tax compliance certificate</li>\r\n<li class=\"whitespace-normal break-words\">Bank statements for the last 9 months</li>\r\n</ul>",
+        "created_at": "2024-11-17T13:05:22.769Z",
+        "updated_at": "2024-11-17T13:05:22.769Z"
+    }
+},
+{
+    "model": "base.service",
+    "pk": 4,
+    "fields": {
+        "name": "Jijenge Loan",
+        "slug": "jijenge-loan",
+        "image": "",
+        "content": "<p class=\"whitespace-pre-wrap break-words\">Realize your long-term business aspirations with our Jijenge Loan, a comprehensive 6-month financing solution designed for serious business growth and transformation. This extended facility provides the substantial funding and time frame needed for significant business investments and expansion projects.</p>\r\n<p class=\"whitespace-pre-wrap break-words\">The Jijenge Loan is perfect for major equipment purchases, business expansion, premises renovation, or launching new product lines. With a six-month repayment period, you can confidently undertake larger projects while maintaining manageable monthly payments.</p>\r\n<p class=\"whitespace-pre-wrap break-words\">Premium Benefits:</p>\r\n<ul class=\"-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8\" style=\"font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);\">\r\n<li class=\"whitespace-normal break-words\">Highest available loan limits</li>\r\n<li class=\"whitespace-normal break-words\">Extended 6-month repayment period</li>\r\n<li class=\"whitespace-normal break-words\">Preferential interest rates for repeat clients</li>\r\n<li class=\"whitespace-normal break-words\">Comprehensive business development support</li>\r\n<li class=\"whitespace-normal break-words\">Flexible collateral options</li>\r\n<li class=\"whitespace-normal break-words\">Priority processing</li>\r\n</ul>\r\n<p class=\"whitespace-pre-wrap break-words\">Qualification Requirements:</p>\r\n<ul class=\"-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8\" style=\"font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);\">\r\n<li class=\"whitespace-normal break-words\">Minimum 2 years of business operations</li>\r\n<li class=\"whitespace-normal break-words\">Strong financial track record</li>\r\n<li class=\"whitespace-normal break-words\">Comprehensive business plan</li>\r\n<li class=\"whitespace-normal break-words\">Audited accounts/financial statements</li>\r\n<li class=\"whitespace-normal break-words\">Valid business licenses and permits</li>\r\n<li class=\"whitespace-normal break-words\">Clean credit history</li>\r\n</ul>",
+        "created_at": "2024-11-17T13:05:46.772Z",
+        "updated_at": "2024-11-17T13:05:46.772Z"
+    }
+},
+{
+    "model": "base.inquiry",
+    "pk": 1,
+    "fields": {
+        "name": "nelson Mokoro",
+        "email": "nelsonmokoroh@gmail.com",
+        "phone": "0720841555",
+        "subject": "Testing",
+        "message": "This is testing",
+        "created_at": "2024-11-19T16:25:55.377Z",
+        "updated_at": "2024-11-19T16:25:55.377Z"
+    }
+},
+{
+    "model": "base.inquiry",
+    "pk": 2,
+    "fields": {
+        "name": "nelson Mokoro",
+        "email": "nelsonmokoroh@gmail.com",
+        "phone": "0720841555",
+        "subject": "Testing",
+        "message": "This is testing",
+        "created_at": "2024-11-19T16:26:24.027Z",
+        "updated_at": "2024-11-19T16:26:24.027Z"
+    }
+},
+{
+    "model": "base.inquiry",
+    "pk": 3,
+    "fields": {
+        "name": "nelson Mokoro",
+        "email": "nelsonmokoroh@gmail.com",
+        "phone": "0720841555",
+        "subject": "Testing",
+        "message": "This is testing",
+        "created_at": "2024-11-19T16:27:05.461Z",
+        "updated_at": "2024-11-19T16:27:05.461Z"
+    }
+},
+{
+    "model": "base.inquiry",
+    "pk": 4,
+    "fields": {
+        "name": "bjkb.jn",
+        "email": "kuf@hgu.co",
+        "phone": "0720841555",
+        "subject": "suyiu",
+        "message": "uligf oiig7 hiu",
+        "created_at": "2024-11-19T16:28:53.187Z",
+        "updated_at": "2024-11-19T16:28:53.187Z"
+    }
+}
+]
